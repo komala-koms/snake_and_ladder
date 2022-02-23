@@ -2,7 +2,7 @@ class Snake:
     __startPoint = None
     __endPoint = None
 
-    def Snake(self, __startPoint, __endPoint):
+    def __init__(self, __startPoint, __endPoint):
         self.__startPoint = __startPoint
         self.__endPoint = __endPoint
 

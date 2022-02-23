@@ -2,7 +2,7 @@ class Ladder:
     __startPoint = None
     __endPoint = None
 
-    def Ladder(self, __startPoint, __endPoint):
+    def __init__(self, __startPoint, __endPoint):
         self.__startPoint = __startPoint
         self.__endPoint = __endPoint
 
